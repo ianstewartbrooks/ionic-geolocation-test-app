@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Geolocation
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-row>
+    <ion-col>
+      Latitude
+    </ion-col>
+    <ion-col>
+      {{ lat }}
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      Longitude
+    </ion-col>
+    <ion-col>
+      {{ lng }}
+    </ion-col>
+  </ion-row>
+  <ion-item text-center>
+    <button ion-button color="danger" large round (click)="clickedGetGeolocation()">
+      Get Current Location
+    </button>
+  </ion-item>
+</ion-content>

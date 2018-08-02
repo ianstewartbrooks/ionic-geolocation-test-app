@@ -1,0 +1,7 @@
+{
+  "name": "geo-test",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
